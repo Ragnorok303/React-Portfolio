@@ -101,7 +101,9 @@ const database = {
       subtitle: "New project in the works",
       imageUrl: "https://media.wireflare.com/img/2013/10/website-development-htaccess.jpg",
       largeImageUrl: ["/images/portfolio-image-8-lg.jpg"],
-      url:''
+      url:'',
+      link:"Link to code",
+      codeurl:"https://github.com/Raej1428/project3"
     },
     {
       id: 2,
@@ -109,7 +111,9 @@ const database = {
       subtitle: "A google books search.",
       imageUrl: "/images/portfolio-image-1.gif",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://googlebooks22.herokuapp.com/'
+      url: 'https://googlebooks22.herokuapp.com/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/GoogleBooksReact"
     },
     {
       id: 3,
@@ -120,14 +124,18 @@ const database = {
         "/images/portfolio-image-4-lg.jpg",
         "/images/portfolio-image-4-lg2.jpg"
       ],
-      url: 'https://hidden-waters-64141.herokuapp.com/'
+      url: 'https://hidden-waters-64141.herokuapp.com/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/Clicky_Game"
     },
     {
       id: 4,
       title: "Mongo-Scrapper",
       subtitle: "News article scrapper.",
       imageUrl: "/images/portfolio-image-2.gif",
-      url: 'https://fierce-thicket-66289.herokuapp.com/'
+      url: 'https://fierce-thicket-66289.herokuapp.com/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/MongoScrapper"
     },
     {
       id: 5,
@@ -135,7 +143,9 @@ const database = {
       subtitle: "The next big social-media platform.",
       imageUrl: "/images/portfolio-image-3.gif",
       largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: 'https://pure-peak-54891.herokuapp.com/login'
+      url: 'https://pure-peak-54891.herokuapp.com/login',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/Project2DBC"
     },
     {
       id: 6,
@@ -143,7 +153,9 @@ const database = {
       subtitle: "Order Up!!",
       imageUrl: "/images/portfolio-image-5.png",
       largeImageUrl: ["/images/portfolio-image-5-lg.jpg"],
-      url:'https://secure-ravine-32092.herokuapp.com/'
+      url:'https://secure-ravine-32092.herokuapp.com/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/sequelizedBurgers"
     },
     {
       id: 7,
@@ -151,7 +163,9 @@ const database = {
       subtitle: "Who's hungry?",
       imageUrl: "/images/portfolio-image-5.png",
       largeImageUrl: ["/images/portfolio-image-5-lg.jpg"],
-      url:'https://secure-ravine-32092.herokuapp.com/'
+      url:'https://secure-ravine-32092.herokuapp.com/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/Burger"
     },
     {
       id: 8,
@@ -159,7 +173,9 @@ const database = {
       subtitle: "Which Superhero are you?",
       imageUrl: "/images/portfolio-image-7.png",
       largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://peaceful-crag-31429.herokuapp.com/'
+      url: 'https://peaceful-crag-31429.herokuapp.com/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/FriendFinder"
     },
     {
       id: 9,
@@ -167,7 +183,9 @@ const database = {
       subtitle: "Guess the MCU Hero",
       imageUrl: "/images/portfolio-image-8.gif",
       largeImageUrl: ["/images/portfolio-image-8-lg.jpg"],
-      url:'https://github.com/Ragnorok303/Constructor-Word-Guess'
+      url:'https://github.com/Ragnorok303/Constructor-Word-Guess',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/Constructor-Word-Guess"
     },
     {
       id: 10,
@@ -175,7 +193,9 @@ const database = {
       subtitle: "Come shop with ease",
       imageUrl: "/images/portfolio-image-9.gif",
       largeImageUrl: ["/images/portfolio-image-9-lg.jpg"],
-      url:'https://github.com/Ragnorok303/Bamazon'
+      url:'https://github.com/Ragnorok303/Bamazon',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/Bamazon"
     },
     {
       id: 11,
@@ -183,7 +203,9 @@ const database = {
       subtitle: "Search your favorite media.",
       imageUrl: "/images/portfolio-image-10.gif",
       largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: 'https://github.com/Ragnorok303/liri-app'
+      url: 'https://github.com/Ragnorok303/liri-app',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/liri-app"
     },
     {
       id: 12,
@@ -191,17 +213,20 @@ const database = {
       subtitle: "Find where to stream media",
       imageUrl: "/images/portfolio-image-11.png",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "/images/portfolio-image-4-lg.jpg"
       ],
-      url: 'https://ragnorok303.github.io/Find-It-Stream-It/'
+      url: 'https://ragnorok303.github.io/Find-It-Stream-It/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/Find-It-Stream-It"
     },
     {
       id: 13,
       title: "GifTastic",
       subtitle: "GIF finder",
       imageUrl: "/images/portfolio-image-12.png",
-      url: 'https://ragnorok303.github.io/GifTastic/'
+      url: 'https://ragnorok303.github.io/GifTastic/',
+      link:"Link to code",
+      codeurl:""
     },
     {
       id: 14,
@@ -209,7 +234,9 @@ const database = {
       subtitle: "Train scheduler",
       imageUrl: "/images/portfolio-image-13.png",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://ragnorok303.github.io/Train-Time/'
+      url: 'https://ragnorok303.github.io/Train-Time/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/Train-Time"
     },
     {
       id: 15,
@@ -217,7 +244,9 @@ const database = {
       subtitle: "How much do you know about Batman",
       imageUrl: "/images/portfolio-image-14.png",
       largeImageUrl: ["/images/portfolio-image-5-lg.jpg"],
-      url:'https://ragnorok303.github.io/Trivia-Game/'
+      url:'https://ragnorok303.github.io/Trivia-Game/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/Trivia-Game"
     },
     {
       id: 16,
@@ -225,7 +254,9 @@ const database = {
       subtitle: "Battle of the Monsters",
       imageUrl: "/images/portfolio-image-15.png",
       largeImageUrl: ["/images/portfolio-image-6-lg.jpg"],
-      url:'https://ragnorok303.github.io/RPG-Game/'
+      url:'https://ragnorok303.github.io/RPG-Game/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/RPG-Game"
     },
     {
       id: 17,
@@ -233,63 +264,10 @@ const database = {
       subtitle: "TMNT guessing game",
       imageUrl: "/images/portfolio-image-16.png",
       largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://ragnorok303.github.io/Word-Guess-Game/'
+      url: 'https://ragnorok303.github.io/Word-Guess-Game/',
+      link:"Link to code",
+      codeurl:"https://github.com/Ragnorok303/Word-Guess-Game"
     },
-    // {
-    //   id: 17,
-    //   title: "Sticker",
-    //   subtitle: "Clip sticker mockup design.",
-    //   imageUrl: "/images/portfolio-image-8.jpg",
-    //   largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    // },
-    // {
-    //   id: 18,
-    //   title: "Packet",
-    //   subtitle: "Beautiful packet & product design.",
-    //   imageUrl: "/images/portfolio-image-9.jpg",
-    //   largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    // },
-    // {
-    //   id: 19,
-    //   title: "T-shirt Mockup",
-    //   subtitle: "A beautiful t-shirt mockup.",
-    //   imageUrl: "/images/portfolio-image-1.jpg",
-    //   largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-    //   url: 'https://dribbble.com'
-    // },
-    // {
-    //   id: 20,
-    //   title: "Coffee Mug",
-    //   subtitle: "Awesome coffee mug design.",
-    //   imageUrl: "/images/portfolio-image-4.jpg",
-    //   largeImageUrl: [
-    //     "/images/portfolio-image-4-lg.jpg",
-    //     "/images/portfolio-image-4-lg2.jpg"
-    //   ],
-    //   url: 'https://facebook.com'
-    // },
-    // {
-    //   id: 21,
-    //   title: "Tea & Coffee Mug",
-    //   subtitle: "Beautiful mug with logo.",
-    //   imageUrl: "/images/portfolio-image-2.jpg",
-    //   url: 'https://pinterest.com'
-    // },
-    // {
-    //   id: 22,
-    //   title: "Pen Holder",
-    //   subtitle: "A pen holder with beautiful design.",
-    //   imageUrl: "/images/portfolio-image-3.jpg",
-    //   largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-    //   url: '#'
-    // },
-    // {
-    //   id: 23,
-    //   title: "Mug",
-    //   subtitle: "Mug with awesome style",
-    //   imageUrl: "/images/portfolio-image-5.jpg",
-    //   largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    // }
   ],
   experience: {
     workingExperience: [
@@ -323,20 +301,6 @@ const database = {
         university: "University of Denver",
         details: "Web Development Bootcamp."
       },
-      // {
-      //   id: 2,
-      //   year: "2016 - 2018",
-      //   graduation: "Bachelor of Science",
-      //   university: "Abc University",
-      //   details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      // },
-      // {
-      //   id: 3,
-      //   year: "2015 - 2016",
-      //   graduation: "Higher Schoold Graduation",
-      //   university: "Abc College",
-      //   details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      // }
     ]
   },
   // blogs: [
