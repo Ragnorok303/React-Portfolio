@@ -33,7 +33,7 @@ function Contact(){
       setMessage('Message is required');
     } else{
       setError(false);
-      setMessage('You message has been sent!!!');
+      setMessage('Your message has been sent!!!');
     }
   }
   const handleChange = (event) => {
@@ -83,7 +83,7 @@ function Contact(){
             <div className="col-lg-6">
               <div className="mi-contact-formwrapper">
                 <h4>Get In Touch</h4>
-                <form action="#" className="mi-form mi-contact-form" onSubmit={submitHandler}>
+                <form action="mailto:jasontompkins22@gmail.com" className="mi-form mi-contact-form" onSubmit={submitHandler}>
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-name">Enter your name*</label>
                     <input onChange={handleChange} type="text" name="name" id="contact-form-name" value={formdata.name}/>

@@ -103,7 +103,7 @@ const database = {
       largeImageUrl: ["/images/portfolio-image-8-lg.jpg"],
       url:'',
       link:"Link to code",
-      codeurl:"https://github.com/Raej1428/project3"
+      codeurl:""
     },
     {
       id: 2,
