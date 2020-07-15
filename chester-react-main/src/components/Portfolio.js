@@ -15,11 +15,11 @@ function Portfolio(props) {
       <div className="mi-portfolio-image">
         <img src={imageUrl} alt={title} />
         <ul>
-          {/* {!largeImageUrl ? null : <li>
+          {!largeImageUrl ? null : <li>
             <button onClick={() => handleToggler(!toggler)}>
               <Icon.ZoomIn/>
             </button>
-          </li>} */}
+          </li>}
           { url ? <li>
             <a rel="noopener noreferrer" target="_blank" href={url}>
               <Icon.Link/>
