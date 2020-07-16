@@ -32,6 +32,17 @@ function Contact(){
       setError(true);
       setMessage('Message is required');
     } else{
+      
+      var template_params = {
+        "name": formdata.name,
+        "email": formdata.email,
+        "subject": formdata.subject,
+        "notes": formdata.message
+     }
+     
+     var service_id = "gmail";
+     var template_id = "contact_page";
+     window.emailjs.send(service_id, template_id, template_params);
       setError(false);
       setMessage('Your message has been sent!!!');
     }
@@ -101,7 +112,7 @@ function Contact(){
                     <textarea onChange={handleChange} name="message" id="contact-form-message" cols="30" rows="6" value={formdata.message}></textarea>
                   </div>
                   <div className="mi-form-field">
-                    <button className="mi-button" type="submit">Send Mail</button>
+                    <button className="mi-button" type="submit" name="submit" value="Send">Send Mail</button>
                   </div>
                 </form>
                 {handleAlerts()}
